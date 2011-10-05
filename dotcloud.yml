@@ -1,0 +1,6 @@
+elasticsearch:
+    type: custom
+    buildscript: builder
+    ports:
+        www: http
+    process: ~/elasticsearch-0.17.7/bin/elasticsearch -f
